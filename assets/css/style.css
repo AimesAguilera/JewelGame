@@ -1,0 +1,82 @@
+#gameBody {
+    margin-top: 10%;
+}
+
+#winLossHolder {
+    float: left;
+    padding: 10px;
+}
+
+#title {
+    float: right;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#randomNumber {
+    clear: both;
+    padding: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 47px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+#yourCount {
+    text-align: center;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#buttonsHolder {
+    text-align: center;
+    width: 240px;
+    height: 240px;
+}
+
+#red {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 55, 55);
+    float: left;
+    margin: 10px;
+}
+#blue {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(75, 75, 255);
+    float: left;
+    margin: 10px; 
+}
+#green {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 255, 66);
+    float: left;
+    margin: 10px; 
+}
+#yellow {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 71);
+    float: left;
+    margin: 10px; 
+}
+
+#buttons {
+    padding: 0px;
+    width: 240px;
+    height: 240px;
+}
+
+.button {
+    border-radius: 25px;
+}
