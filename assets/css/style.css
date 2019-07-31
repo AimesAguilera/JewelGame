@@ -45,30 +45,30 @@
 #red {
     width: 100px;
     height: 100px;
-    background-color: rgb(255, 55, 55);
+    background: linear-gradient(45deg, #ff0000, #8b0000);
     float: left;
     margin: 10px;
 }
 #blue {
     width: 100px;
     height: 100px;
-    background-color: rgb(75, 75, 255);
+    background: linear-gradient(45deg, #4169e1, #191970);
     float: left;
     margin: 10px; 
 }
 #green {
     width: 100px;
     height: 100px;
-    background-color: rgb(66, 255, 66);
+    background: linear-gradient(45deg, #32cd32, #008000);
     float: left;
     margin: 10px; 
 }
 #yellow {
     width: 100px;
     height: 100px;
-    background-color: rgb(255, 255, 71);
+    background: linear-gradient(45deg, #ffff00, #ffa500);
     float: left;
-    margin: 10px; 
+    margin: 10px;
 }
 
 #buttons {
@@ -79,4 +79,6 @@
 
 .button {
     border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.6);
 }
